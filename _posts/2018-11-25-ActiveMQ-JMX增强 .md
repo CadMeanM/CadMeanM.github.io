@@ -4,7 +4,7 @@ title:      ActiveMQ JMX增强
 subtitle:   ActiveMQ JMX添加基础方法
 date:       2018-11-25
 author:     Cadmean
-header-img: img/post-bg-coffee.jpg
+header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:
     - ActiveMQ
