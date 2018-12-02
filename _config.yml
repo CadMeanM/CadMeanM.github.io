@@ -3,7 +3,7 @@ title: Cadmean Blog
 SEOTitle: Cadmean的博客 | Cadmean Blog
 header-img: img/post-bg-desk.jpg
 email: davidboyhz@163.com
-description: "Try harder"
+description: ""
 keyword: "Cadmean的博客, cadmean"
 url: "http://cadmeanm.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     qiubaiying
 github_username:    CadMeanM
-jianshu_username:   MisterCH
+jianshu_username:   bd0b492632af
 #twitter_username:   qiubaiying
 
 
