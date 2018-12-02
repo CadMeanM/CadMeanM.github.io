@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      ActiveMQ JMX增强
+subtitle:   ActiveMQ JMX添加基础方法
+date:       2018-11-25
+author:     Cadmean
+header-img: img/post-bg-coffee.jpg
+catalog: true
+tags:
+    - ActiveMQ
+    - 消息中间件
+    - JMX
+---
+
+
 前端时间学习了一下JMX的写法，相关的学习资料可以百度一下JMX学习。
 日常最常用到JMX的地方是监控采集，往往开源项目也都会内置JMX的接口，供Jconsole连接或外部监控程序连接。
 JMX的常用写法其实很简单：
