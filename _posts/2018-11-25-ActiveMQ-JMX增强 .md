@@ -38,9 +38,8 @@ server.registerMBean(new Student()),object;
 ```java
 package com.cn.amqs;
 /**
- * 实现每次任务到达MQ时自动往一个地址上送一条信息
- * @author MisterCH
- */
+* 实现每次任务到达MQ时自动往一个地址上送一条信息
+*/
 public class MessageLog extends BrokerFilter{
     private Log log;
     /**下行任务HashMap*/
@@ -52,9 +51,12 @@ public class MessageLog extends BrokerFilter{
         super(next);
         ……
     }
- /**
-  * 每当MQ收到一条生产者发送过来的消息的时候执行判断。
-  */
+/**
+* 每当MQ收到一条生产者发送过来的消息的时候执行判断
+* @param producerExchange
+* @param messageSend
+* @throws Exception
+*/
     public void send(ProducerBrokerExchange producerExchange, Message messageSend) throws Exception {
         if (!isRegistered){
             try{
