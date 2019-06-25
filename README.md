@@ -223,7 +223,7 @@ disqus_username: qiubaiying
 
 ```
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: bb9ac623d2eb0f72a04528c5292914c0
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
